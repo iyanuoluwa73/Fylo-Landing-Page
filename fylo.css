@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+
+* {
+	padding: 0;
+	}
+
+body {
+	margin: 0;
+	color: hsl(0, 0%, 100%);
+	font-size: 14px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	background-color: hsl(218, 28%, 13%);
+}
+
+ul, li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+main {
+	background-color: hsl(218, 28%, 13%);
+}
+
+h2, h3, nav, .get, .sub {
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+}
+
+/*header section*/
+
+header {
+	background-color:hsl(217, 28%, 15%);
+	padding: 10px;
+	display: flex;
+ justify-content: space-between;
+	align-items: center;
+}
+
+.logo img {
+	width: 82px;
+	height: 24px;
+}
+
+nav ul {
+	display: flex;
+}
+
+nav ul li {
+ margin-left: 15px;
+}
+
+/* intro section */
+
+.intro {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+ background: hsl(217, 28%, 15%) url(bg-curvy-mobile.svg) no-repeat 15% 56%;
+	padding-top: 25px;
+	text-align: center;
+}
+
+.intro img {
+	width: 300px;	
+}
+
+.get {
+	display: block;
+	border-style: none;
+	border-radius: 30px;
+	width: 15em;
+	height: 40px;
+ color: hsl(0, 0%, 100%);
+	padding: 1em;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: hsl(176, 68%, 64%);
+}
+
+.intro h1 {
+	padding: 0 10px 0 10px;
+	text-align: center;
+	width: 300px;
+}
+
+.intro p {
+	padding: 0 10px 0 10px;
+	width: 290px;
+	text-align: center;
+}
+
+/* info section */
+
+.info {
+	text-align: center;
+	background-color: hsl(217, 28%, 15%);
+}
+
+.info img {
+	margin: 40px 0px 30px 0px;
+}
+
+.access, .security, .share, .store {
+	padding: 0 30px 0 30px;
+}
+
+/* Pro section */
+
+.pro {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: hsl(217, 28%, 15%)
+}
+
+.pro img {
+	width: 300px;
+}
+
+.pre {
+	margin-top: 10px;
+	padding: 0 30px 0 30px;	
+}
+
+.pre h2 {
+	font-size: 14px;
+	text-align: center;
+}
+
+.pre p {
+	text-align: left;
+	font-size: 14px;
+}
+
+.pre_link {
+	border-bottom: 1px solid hsl(176, 68%, 64%);
+	color: hsl(176, 68%, 64%);
+}
+
+.pre img {
+	width: 20px;
+	vertical-align: middle;
+}
+
+/* Testimonial section */
+
+.test {
+	padding: 10px;
+	margin: 10px 30px 0px 20px;
+	background: url(bg-quotes.png) no-repeat 8% top;
+}
+
+.testimonial {
+	background-color: hsl(219, 30%, 18%);
+	border-radius: 5px;
+ padding: 15px 20px;
+ margin: 36px 0px 30px 0px;
+	position: relative;	
+}
+
+.testimonial p {
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+.profile img {
+	width: 27px;
+	height: 27px;
+ border-radius: 50%;
+}
+
+.profile-info h3 {
+ position: absolute;
+ top: 130px;
+ left: 55px;
+}
+.profile-info small {
+ position: absolute;
+ top: 167px;
+ left: 55px;
+}
+
+/* Sign-up section */
+
+
+.sign {
+ background-color: hsl(217, 28%, 15%);
+	border-radius: 20px;
+	border: none;
+	margin: 0 15px 0 15px;
+	padding: 15px 0 15px 0;
+	position: absolute;
+	left: 1%;
+}
+
+.sign h2, p {
+	text-align: center;	 
+}
+
+#email {
+	width: 230px;
+	height: 47px;
+	border-radius: 40px;
+	border-style: none;
+	padding-left: 2em;.
+	margin-left: 150px;	
+}
+
+.sub {
+	display: block;
+	border-style: none;
+	border-radius: 30px;
+	width: 250px;
+	height: 47px;
+	background-color: hsl(176, 68%, 64%);
+ color: hsl(0, 0%, 100%);
+	padding-left: 1.5em;
+	margin: 20px 0px 30px 40px;
+}
+
+/*footer section */
+
+footer {
+	padding-bottom: 30px;
+	background-color: hsl(216, 53%, 9%);
+	margin: 180px 0 0 0;
+}
+
+.log img {
+ margin: 155px 0px 0px 0px;
+}
+
+.loc p {
+	text-align: left;
+	width: 260px;
+	margin: 14px 0 0 57px;
+}
+
+.phone p {
+	text-align: left;
+	width: 260px;
+	margin: 18px 0 0 61px;
+}
+
+.mail p {
+	text-align: left;
+	width: 260px;
+	margin: 22px 0 0 64px;
+}
+
+.loc img {
+	position: absolute;
+	top: 3327px;
+	left: 35px;
+}
+
+.phone img {
+	position: absolute;
+	top: 3422px;
+	left: 35px;
+}
+
+.mail img {
+	position: absolute;
+	top: 3460px;
+	left: 35px;
+}
+
+.more, .about {
+	margin: 20px 0px 10px 35px;
+}
+
+.more li, .about li {	
+	padding: 5px 0px 0px 0px;
+}
+
+.contact {
+	margin-left: 135px;
+}
+
+i {
+	padding-left: 15px;
+}
+
+@media screen and (min-width: 768px) {
+/* Intro section */
+
+	.intro {
+		background: hsl(217, 28%, 15%) url(bg-curvy-desktop.svg) bottom no-repeat;
+		background-size: 100% 278px;
+	}
+	
+	.intro h1 {
+		width: 350px;
+	}
+	
+	.intro p {
+		width: 540px;
+	}
+
+/* Info section */
+	
+.info {
+		text-align: center;
+		line-height: 1.5;
+	}
+	
+	.access {
+		position: absolute;
+		top: 650px;
+		left: 70px;
+		width: 330px;
+	}
+	.security {
+		position: absolute;
+		top: 640px;
+		right: 70px;
+		width: 360px;
+	}
+	.share {
+	 position: absolute;
+		top: 950px;
+		left: 70px;
+		width: 330px;
+	}
+ .store {
+		position: absolute;
+		top: 955px;
+		right: 70px;
+		width: 330px;
+	}
+
+/* Pro section */	
+
+	.pro {
+		display: block;
+		margin-top: 800px;
+	}
+	
+ .features img {
+		float: left;
+		width: 420px;
+		height: 350px;
+		padding-left: 40px;
+	}
+	
+	.pre {
+		float: right;
+		width: 440px;
+		text-align: left;
+		padding-top: 40px;
+		padding-right: 40px;
+	}
+	
+	.pre h2 {
+		width: 190px;
+		height: 10px;
+		text-align: left;
+		font-size: 22px;
+	}
+	
+	.pre p {
+		padding-top: 30px;
+	}
+
+/* Testimonial section */
+
+ .testimonial {
+ 	float: left;
+ 	width: 20%;
+ 	margin: 100px 20px 0 30px;
+ }
+ 
+ .profile-info h3 {
+ position: absolute;
+ top: 145px;
+ left: 55px;
+}
+.profile-info small {
+ position: absolute;
+ top: 180px;
+ left: 55px;
+}
+	
+	.sign {
+	margin: 750px 5px 0px 150px;
+	padding: 15px 0px 15px 0px;
+	width: 600px;
+}
+	
+	.sign p {
+		font-size: 14px;
+		width: 500px;
+		padding: 0 10px 0 60px;
+	}
+	
+	#email {
+	width: 230px;
+	height: 47px;
+	padding-left: 2em;
+	margin-left: 180px;	
+}
+
+.sub {
+	width: 250px;
+	height: 47px;
+	padding-left: 1.5em;
+	margin: 20px 0px 30px 180px;
+}
+	
+/* Footer section */
+
+	footer {
+		margin: 900px 0 0 0;
+	padding-bottom: 300px;
+}
+
+.log img {
+ margin: 190px 0px 5px 30px;
+}
+
+.loc p {
+	text-align: left;
+	width: 260px;
+ margin: 43px 0 0 70px;
+}
+
+.phone p {
+	text-align: left;
+	width: 260px;
+	position: absolute;
+	top: 2650px;
+	left: 420px;
+}
+
+.mail p {
+	position: absolute;
+	top: 2700px;
+	left: 420px;
+}
+
+.loc img {
+	position: absolute;
+	top: 2670px;
+	left: 35px;
+}
+
+.phone img {
+	position: absolute;
+	top: 2670px;
+	left: 440px;
+}
+
+.mail img {
+	position: absolute;
+	top: 2730px;
+	left: 440px;
+}
+
+.more {
+	position: absolute;
+	top: 2760px;
+	left: 60px;
+}
+
+.about {
+	position: absolute;
+	top: 2760px;
+	left: 350px;
+}
+
+.contact {
+	margin-left: 665px;
+}
+
+i {
+	padding-left: 25px;
+}
+}
